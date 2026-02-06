@@ -1,0 +1,35 @@
+
+{
+  "name": "al-raghad-law-firm",
+  "version": "4.0.0",
+  "description": "نظام إدارة مكتب الرغد للمحاماة - د. أحمد عرفات",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "com.alraghad.law",
+    "productName": "مكتب الرغد للمحاماة",
+    "copyright": "Copyright © 2025 Dr. Ahmed Arafat",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": "icon.png"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "shortcutName": "مكتب الرغد",
+      "createDesktopShortcut": true
+    }
+  },
+  "devDependencies": {
+    "electron": "^31.0.0",
+    "electron-builder": "^24.13.3"
+  }
+}

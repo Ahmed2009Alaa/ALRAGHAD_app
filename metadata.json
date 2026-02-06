@@ -1,0 +1,12 @@
+
+{
+  "name": "Al-Raghad Law Firm Desktop",
+  "version": "4.0.0",
+  "author": "Dr. Ahmed Arafat",
+  "description": "نظام إدارة متكامل لمكتب الرغد للمحاماة - نسخة سطح المكتب الاحترافية مع دعم السيرفر والذكاء الاصطناعي.",
+  "main": "main.js",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
